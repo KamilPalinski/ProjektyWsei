@@ -1,0 +1,57 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 3px;
+    outline: none;
+    width: 150px;
+    background-color: #9ca8b1
+}
+
+
+
+#info {
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    background-color: #728490;
+    border-right: 1px solid black;
+    overflow: 'hidden'
+}
+
+#data {
+    width: 80%;
+    height: 100%;
+    border-right: 1px solid black;
+    background-color: #728490;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* .container {
+    width: 100%;
+    height: 1000%;
+    display: flex;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+} */
+
+/* .flex-wrapp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
