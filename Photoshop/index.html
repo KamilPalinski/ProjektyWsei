@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title>Photoshop</title>
+
+     <meta name="description" content="Photoshop">
+     <meta name="keywords" content="Photoshop,jasnosc,rozmycie,rozmycie">
+     <meta name="author" content="Kamil Palinski">
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+     <link rel="stylesheet" href="Style.css">
+
+  </head>
+  <body>
+      <div id="canvas-container">
+          <canvas id="canvas"></canvas>
+      </div>
+      <div id="control">
+           <label for="loader" class="file-input">
+              <input type="file" id="loader" accept="image/png, image/jpeg" />
+          </label>
+    <div class="tools">
+      <div class="tools-input">
+          <label>Jasność:</label>
+        <input type="range" id="brightness" min="-1" max="1" value="0" step=".1" />
+      </div>
+      <div class="tools-input">
+        <label>Kontrast:</label>
+        <input type="range" id="contrast" min="0" max="1" value="0" step=".1" />
+      </div>
+      <div class="tools-input">
+        <label>Rozmycie:</label>
+        <input type="range" id="blur" min="0" max="8" value="0" step=".1" />
+      </div>
+    </div>
+    
+  </div>
+  <script src="Skrypt.js"></script>
+  </body>
+
+</html>
+
+
+
+
+
+

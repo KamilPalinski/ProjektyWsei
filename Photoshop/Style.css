@@ -1,0 +1,78 @@
+html, body {
+
+  background-color: #400CE8;
+}
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-top: 1%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+ #container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  background-color:#400CE8;
+}
+#control {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools{
+  position: relative;
+    top: 70%;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #87FF14;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff00;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+
+
+.file-input {
+  margin-top: 1%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+   background-color: #87FF14;
+  color: #87FF14;
+  max-width: 20%;
+}
+
+.file-input:hover {
+  background-color:#0DFFF7;
+ 
+}
+
+
