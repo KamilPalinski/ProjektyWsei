@@ -1,0 +1,60 @@
+html body{
+  height: 100%;
+  width: 100%;
+  background-image:url(tlo.jpg)
+}
+.title{
+  position: left;
+}
+.container{
+  font-family: "Times New Roman", Times, serif;
+  color:grey;
+background-color: black;
+position: absolute;
+  width: 300px;
+  height: 270px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+.klawisze{
+  
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+ grid-gap:5px 5px;
+ 
+}
+.readme{
+  box-shadow: 1px 2px 2px 1px;
+  color:red;
+}
+.klawiatura {
+  background-color: rgb(36, 34, 34);
+  border: 3px solid  green;
+  /* box-shadow: green 2px 2px;  */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.key-pressed{
+  background-color: red;
+  box-shadow: green 2px 2px; 
+}
+.power{
+  background-color: black;
+  box-shadow: none;
+  border: none;
+}
+.Nagrywanie {
+  float: left;
+  color:green;
+}
+
+.Wyswietlanie:nth-child(n) {
+  display: inline;
+  color:green;
+}

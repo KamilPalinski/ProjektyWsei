@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SoundKit</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="title">Sampler</div>
+    <div class="container">
+        Akai MPC 500
+    <div class="klawisze">
+     <button class="klawiatura" id="a" ></button>
+     <button class="klawiatura" id="s"></button>
+     <button class="klawiatura" id="d"></button>
+     <button class="klawiatura" id="f"></button>
+     <button class="klawiatura" id="g"></button>
+     <button class="klawiatura" id="h"></button>
+     <button class="klawiatura" id="j"></button>
+     <button class="klawiatura" id="k"></button>
+     <button class="klawiatura" id="l"></button>
+    </div>
+
+<button class="power"><img src="power.png" width="50" height="50" onclick="loadAudio()" /></button>
+<div class="records">
+    <div class="recordHolder">
+        
+        <button id="playButton1" onclick="playRecord(1)"><img src="play.png" width="20" height="20"/></button><button id="rButton1" onclick="startRecord(1)"><img src="record.png" width="20" height="20"/></button>
+
+        <button id="playButton2" onclick="playRecord(2)"><img src="play.png" width="20" height="20"/></button><button id="rButton2" onclick="startRecord(2)"><img src="record.png" width="20" height="20"/></button>
+   
+        <button id="playButton3" onclick="playRecord(3)"><img src="record.png" width="20" height="20"/></button><button id="rButton3" onclick="startRecord(3)"><img src="record.png" width="20" height="20"/></button>
+
+        <button id="playButton4" onclick="playRecord(4)"><img src="record.png" width="20" height="20"/></button><button id="rButton4" onclick="startRecord(4)"><img src="record.png" width="20" height="20"/></button>
+        
+        <div id="status1">No record</div>
+        <div id="status2">No record</div>
+        <div id="status3">No record</div>
+        <div id="status4">No record</div>
+        <div class="readme">Nacisnij Start aby wlaczyc Sampler</div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
